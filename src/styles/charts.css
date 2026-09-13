@@ -1,0 +1,117 @@
+/* src/styles/charts.css */
+
+.chart-card-wrapper {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: 12px;
+  padding: 16px 12px 12px 12px;
+  margin: 0 16px 16px 16px;
+}
+
+.chart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+  padding: 0 4px;
+}
+
+.chart-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.chart-subtitle {
+  font-size: 11px;
+  color: var(--text-muted);
+}
+
+/* Custom Tooltip Dark Container */
+.custom-chart-tooltip {
+  background-color: rgba(17, 19, 24, 0.95);
+  backdrop-filter: blur(8px);
+  border: 1px solid var(--border-active);
+  border-radius: 8px;
+  padding: 8px 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+.tooltip-date {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  margin-bottom: 4px;
+  border-bottom: 1px solid var(--border-subtle);
+  padding-bottom: 2px;
+}
+
+.tooltip-val {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--accent-pink);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.tooltip-sub {
+  font-size: 10px;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+/* Spike Highlight Badge */
+.spike-highlight-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background-color: rgba(225, 48, 108, 0.15);
+  color: var(--accent-pink);
+  border: 1px solid rgba(225, 48, 108, 0.3);
+  font-size: 10px;
+  font-weight: 600;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+/* Content Type Progress Bar Rows */
+.content-type-list {
+  padding: 0 16px 16px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.content-type-row {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.content-type-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.content-type-value {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+/* Recharts overrides */
+.recharts-cartesian-grid-horizontal line,
+.recharts-cartesian-grid-vertical line {
+  stroke: var(--border-subtle);
+  stroke-dasharray: 3 3;
+}
+
+.recharts-text.recharts-cartesian-axis-tick-value {
+  fill: var(--text-muted);
+  font-size: 10px;
+  font-weight: 500;
+}

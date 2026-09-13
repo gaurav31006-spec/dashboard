@@ -1,0 +1,22 @@
+/* src/styles/responsive.css */
+
+/* Base mobile-first responsive styles */
+
+/* Content max-width centering for tablet/desktop */
+@media (min-width: 600px) {
+  /* On tablet+ center content within a max-width column */
+  .app-content-limiter {
+    max-width: 480px;
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+
+/* Ensure insights page content doesn't go too wide on desktop */
+@media (min-width: 900px) {
+  .insights-page,
+  .dashboard-page {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}
