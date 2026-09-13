@@ -250,11 +250,11 @@ export const ageDemographics = [
 ];
 
 export const topLocations = [
-  { city: "San Francisco, CA", percentage: "18.2%" },
-  { city: "New York, NY", percentage: "14.5%" },
-  { city: "London, UK", percentage: "11.0%" },
-  { city: "Toronto, Canada", percentage: "8.4%" },
-  { city: "Berlin, Germany", percentage: "6.1%" },
+  { city: "United States", percentage: "18.2%" },
+  { city: "United Kingdom", percentage: "14.5%" },
+  { city: "Germany", percentage: "11.0%" },
+  { city: "Iran", percentage: "8.4%" },
+  { city: "India", percentage: "6.1%" },
 ];
 
 export const dateRangeOptions = [

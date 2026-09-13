@@ -128,6 +128,7 @@ export const MOCK_INSIGHTS_DATA = {
         { country: 'India', percentage: 7.2, flag: '🇮🇳' },
         { country: 'Canada', percentage: 6.0, flag: '🇨🇦' }
       ],
+      
       ageDistribution: [
         { age: '13-17', percentage: 2.1 },
         { age: '18-24', percentage: 28.4 },
@@ -354,6 +355,8 @@ export const MOCK_INSIGHTS_DATA = {
         aiRating: 'All-Time Top Performer 🏆'
       }
     ],
+
+    
 
     // Professional Tools & Monetization Insights
     monetization: {
